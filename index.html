@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Endurance Omovrah | Designer & Technical Content Creator</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f5;
+      color: #171717;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav {
+      padding: 25px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .links {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 120px 0 100px;
+    }
+
+    .small {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    h1 {
+      font-size: clamp(45px, 8vw, 82px);
+      line-height: 1;
+      letter-spacing: -4px;
+      max-width: 900px;
+      margin-bottom: 30px;
+    }
+
+    .intro {
+      font-size: 20px;
+      max-width: 700px;
+      color: #555;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 22px;
+      border: 1px solid #171717;
+      border-radius: 4px;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+
+    .button:hover {
+      background: #171717;
+      color: white;
+    }
+
+    section {
+      padding: 90px 0;
+      border-top: 1px solid #ddd;
+    }
+
+    h2 {
+      font-size: 42px;
+      line-height: 1.1;
+      margin-bottom: 30px;
+      letter-spacing: -1px;
+    }
+
+    .about {
+      max-width: 800px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .skill {
+      border: 1px solid #ccc;
+      padding: 10px 15px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .project {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 30px;
+      min-height: 260px;
+    }
+
+    .number {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 35px;
+    }
+
+    .project h3 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .project p {
+      color: #666;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 25px;
+      font-size: 14px;
+      text-decoration: underline;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 110px 0;
+    }
+
+    .email {
+      font-size: 22px;
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      padding: 25px 0;
+      color: #777;
+      font-size: 13px;
+    }
+
+    @media (max-width: 700px) {
+      .links {
+        display: none;
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="container nav">
+      <div class="logo">Endurance Omovrah</div>
+
+      <ul class="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+
+      <div class="small">Designer · Content Creator · Technical Communicator</div>
+
+      <h1>
+        I create clear and engaging digital experiences.
+      </h1>
+
+      <p class="intro">
+        I combine visual design, digital content, research, and technical
+        communication to turn complex ideas into experiences that are easier
+        to understand and use.
+      </p>
+
+      <a href="#work" class="button">View my work</a>
+      <a href="#contact" class="button">Contact me</a>
+
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+
+      <div class="small">01 — About</div>
+
+      <h2>Designing with clarity and purpose.</h2>
+
+      <div class="about">
+        <p>
+          I'm Endurance Omovrah, a creative professional with experience in
+          instructional design, e-learning development, visual communication,
+          video production, and digital content creation.
+        </p>
+
+        <br>
+
+        <p>
+          I enjoy researching information, understanding the needs of an
+          audience, organizing complex ideas, and creating visual solutions
+          that communicate those ideas clearly.
+        </p>
+
+        <br>
+
+        <p>
+          I'm particularly interested in UI/UX, visual design, technical
+          communication, documentation, and open-source projects that make
+          technology more accessible.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="container">
+
+      <div class="small">02 — Selected Work</div>
+
+      <h2>Projects</h2>
+
+      <div class="projects">
+
+        <div class="project">
+          <div>
+            <div class="number">PROJECT 01</div>
+
+            <h3>UI/UX & Interface Design</h3>
+
+            <p>
+              Wireframes, user flows, interface concepts, and digital product
+              design developed with a focus on clarity and usability.
+            </p>
+          </div>
+
+          <a href="#">View project →</a>
+        </div>
+
+
+        <div class="project">
+          <div>
+            <div class="number">PROJECT 02</div>
+
+            <h3>Visual & Graphic Design</h3>
+
+            <p>
+              Visual assets, technical illustrations, diagrams, infographics,
+              and digital graphics created to communicate information clearly.
+            </p>
+          </div>
+
+          <a href="#">View project →</a>
+        </div>
+
+
+        <div class="project">
+          <div>
+            <div class="number">PROJECT 03</div>
+
+            <h3>Technical Communication</h3>
+
+            <p>
+              Visual explanations and educational content created to make
+              technical subjects easier for audiences to understand.
+            </p>
+          </div>
+
+          <a href="#">View project →</a>
+        </div>
+
+
+        <div class="project">
+          <div>
+            <div class="number">PROJECT 04</div>
+
+            <h3>Digital Content</h3>
+
+            <p>
+              Video, multimedia, and digital content projects combining
+              storytelling, visual communication, editing, and technology.
+            </p>
+          </div>
+
+          <a href="#">View project →</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+
+      <div class="small">03 — Skills</div>
+
+      <h2>Tools & skills</h2>
+
+      <div class="skills">
+        <div class="skill">UI/UX Design</div>
+        <div class="skill">Figma</div>
+        <div class="skill">Visual Design</div>
+        <div class="skill">Graphic Design</div>
+        <div class="skill">Research</div>
+        <div class="skill">Technical Communication</div>
+        <div class="skill">Instructional Design</div>
+        <div class="skill">Video Editing</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Adobe Premiere Pro</div>
+        <div class="skill">CapCut</div>
+        <div class="skill">Camtasia</div>
+        <div class="skill">AI-assisted Design</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="small">04 — Open Source</div>
+
+      <h2>Why I want to contribute.</h2>
+
+      <div class="about">
+        <p>
+          I'm interested in open-source communities because they create
+          opportunities to learn, collaborate, solve problems, and make
+          useful technology accessible to more people.
+        </p>
+
+        <br>
+
+        <p>
+          Through open-source contribution, I hope to strengthen my design,
+          research, documentation, and collaboration skills while contributing
+          meaningfully to projects and communities.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="small">05 — Contact</div>
+
+      <h2>Let's connect.</h2>
+
+      <p class="about" style="margin: 0 auto 30px;">
+        I'm open to opportunities involving design, visual communication,
+        technical content, documentation, and open-source collaboration.
+      </p>
+
+      <a class="email" href="mailto:YOUR-EMAIL@example.com">
+        YOUR-EMAIL@example.com
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © 2026 Endurance Omovrah
+    </div>
+  </footer>
+
+</body>
+</html>
